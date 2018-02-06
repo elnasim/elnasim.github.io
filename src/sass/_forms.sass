@@ -1,0 +1,39 @@
+form.validate
+  input.error, checkbox.error, textarea.error
+    border-color: transparentize($color-red, 0.7)
+    background-color: transparentize($color-light-red, 0.9)
+
+  input.valid, checkbox.valid, textarea.valid
+    border-color: transparentize($color-blue, 0.7)
+    background-color: transparentize($color-light-blue, 0.9)
+
+  label.error
+    color: transparentize($color-red, 0.2)
+
+  div.validate-checkbox > label
+    position: absolute
+    top: 0px
+    padding-left: 20px
+
+  div.checkbox-container label.error
+    display: block
+
+  div.ajax-progress-send-form
+    height: 24px
+    text-align: center
+
+  div.ajax-form-response
+
+    div.ajax-form-response-body
+      padding: 5px 5px
+      border-radius: 3px
+      text-align: center
+      margin-bottom: 10px
+
+      &.success
+        border: 1px solid transparentize($color-light-green, 0.8)
+        background-color: transparentize($color-light-green, 0.9)
+
+      &.error
+        border: 1px solid transparentize($color-light-red, 0.6)
+        background-color: transparentize($color-light-red, 0.7)

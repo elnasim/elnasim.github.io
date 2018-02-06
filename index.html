@@ -1,169 +1,157 @@
 <!DOCTYPE html>
-<html lang="ru">
-
+<html lang="en">
 <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<meta charset="utf-8">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-	<title>Вёрстка сайтов на заказ</title>
-	<meta name="description" content="Вёрстка сайтов на заказ">
+  <link rel="icon" href="">
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Вёрстка / разрабока сайтов</title>
 
-	<meta property="og:image" content="path/to/image.jpg">
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+  <!-- include css libraries -->
+  <link href="dist/css/libs.min.css" rel="stylesheet">
 
-	<!-- Chrome, Firefox OS and Opera -->
-	<meta name="theme-color" content="#000">
-	<!-- Windows Phone -->
-	<meta name="msapplication-navbutton-color" content="#000">
-	<!-- iOS Safari -->
-	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
-
-	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
-	<link rel="stylesheet" href="libs/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="libs/FontAwesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/main.css">
-
+  <!-- include common css -->
+  <link href="dist/css/common.min.css" rel="stylesheet">
 </head>
-
 <body>
-	
-	<section id="s1" class="section s-1" data-section="one">
-		
-		<div class="s-1__content-flex">
 
-			<div class="container">
-				<div class="row">
+<header class="header" data-parallax="scroll" data-image-src="../dist/img/header.jpg">
+  <div class="container">
+    <h1>Вёрстка / разработка сайтов</h1>
+  </div>
+</header>
 
-					<div class="s-1__content">Вёрстка сайтов по вашим макетам</div>
+<div class="section">
+  <div class="container">
+    <div class="section-title">Обо мне</div>
+  </div>
+  <div class="container">
+    <section class="about">
+      <div class="column-6">
+        <div class="about__photo"><img class="img-responsive" src="dist/img/person.png" alt=""></div>
+      </div>
+      <div class="column-6">
+        <div class="about__info">
+          <p><b>Сергей</b></p>
+          <p><b>HTML верстальщик/веб разработчик</b></p>
+          <p><b>Основная деятельность:</b> Верстка сайтов согласно разработанному макету. Разрабока сайтов на CMS Wordpress. Живу и работаю в Казани.</p>
+          <p>Отлично владею HTML/CSS/JavaScript(JQuery). В процессе работы, всегда учитываю разницу отображения элементов в различных браузерах. Делаю сайты под IE10+, а также устройства с любым размером экрана.</p>
+          <p>Пишу валидный, семантичный, легко поддерживаемый код. Изучаю и использую современные фишки и технологии верстки (SVG, Flexbox..).</p>
+          <p>Можно заказать у меня сайт по ссылке ниже. Также я ищу команду, в которой смогу приносить пользу коллективу и клиентам, а также развиваться как специалист.</p>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
 
-				</div>
-			</div>
+<div class="section">
+  <div class="container">
+    <div class="socials">
+      <a class="socials__btn" href="https://vk.com/seregaktun" target="_blank">Заказать сайт</a>
+    </div>
+  </div>
+</div>
 
-		</div>
-		
-		<div class="mouse-icon-wrapper">
-			<div class="mouse-icon"><div class="wheel"></div></div>
-		</div>
-		
-	</section>
+<div class="section">
+  <div class="container">
+    <div class="portfolio">
 
-	<section id="s2" class="section s-2" data-section="two">
+      <div class="column-1">
+        <div class="section-title">Портфолио</div>
+      </div>
 
-		<div class="container">
-			<div class="row">
+      <div class="column-1">
+        <div class="carousel">
 
-				<h2>Мои работы</h2>
+          <div class="carousel__item">
+            <img src="../dist/img/works/andybrown.jpg" class="carousel-preview img-responsive">
+            <a href="http://andybrown.ru/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-				<div class="gallery">
-					<div class="col-md-4">
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-big" style="background-image: url(/img/works_preview/1.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>Превью страницы</h3>
-								<p>Вёрстка</p>
-								<a href="https://elnasim.github.io/works/1" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-small" style="background-image: url(/img/works_preview/2.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>Копирайтинг</h3>
-								<p>Вёрстка, настройка форм, всплывающих окон, отправка заявок на почту.</p>
-								<a href="https://elnasim.github.io/works/2" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>						
-					</div>
-					<div class="col-md-4">
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-small" style="background-image: url(/img/works_preview/3.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>Главная страница сайта-блога</h3>
-								<p>Вёрстка</p>
-								<a href="https://elnasim.github.io/works/3" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-small" style="background-image: url(/img/works_preview/4.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>РЖД медицина</h3>
-								<p>Вёрстка</p>
-								<a href="https://elnasim.github.io/works/4" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-small" style="background-image: url(/img/works_preview/5.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>РЖД медицина</h3>
-								<p>Вёрстка</p>
-								<a href="https://elnasim.github.io/works/5" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-md-4">
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-small" style="background-image: url(/img/works_preview/6.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>Кухни на заказ</h3>
-								<p>Вёрстка, настройка форм, всплывающих окон, отправка заявок на почту.</p>
-								<a href="https://elnasim.github.io/works/6" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-						<div class="gallery__item-wrapper">
-							<div class="gallery__item gallery__item-big" style="background-image: url(/img/works_preview/7.jpg)"></div>
-							<div class="gallery__item-hover">
-								<h3>Рисуем картины по фото</h3>
-								<p>Вёрстка, настройка форм, всплывающих окон, отправка заявок на почту.</p>
-								<a href="https://elnasim.github.io/works/7" target="_blank">Посмотреть вёрстку <i class="fa fa-long-arrow-right"></i></a>
-							</div>
-						</div>
-					</div>
-				</div>
+          <div class="carousel__item">
+            <img src="../dist/img/works/clipso.jpg" class="carousel-preview img-responsive">
+            <a href="http://clipso-union.by/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-			</div>
-		</div>
-		
-	</section>
+          <div class="carousel__item">
+            <img src="../dist/img/works/mebelprint.jpg" class="carousel-preview img-responsive">
+            <a href="http://mebelprint.by/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-	<section id="s3" class="section s-3" data-section="three">
+          <div class="carousel__item">
+            <img src="../dist/img/works/drkb.jpg" class="carousel-preview img-responsive">
+            <a href="http://dkb.yar.ru/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-		<div class="container">
-			<div class="row">
+          <div class="carousel__item">
+            <img src="../dist/img/works/shina-luki.jpg" class="carousel-preview img-responsive">
+            <a href="http://shina-luki.ru" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-				<h2>Контакты</h2>
+          <div class="carousel__item">
+            <img src="../dist/img/works/popart.jpg" class="carousel-preview img-responsive">
+            <a href="http://popartevents.by/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-				<div class="col-xs-12">
-					<div class="socials">
-						<a href="https://vk.com/seregaktun" target="_blank"><i class="fa fa-vk"></i></a>
-						<a href="https://t.me/K_T_y_H" target="_blank"><i class="fa fa-telegram"></i></a>
-						<a href="mailto:archlis21@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a>
-					</div>
-					<div class="developed">
-						2017 | Все права защищены <br>
-						Developed by Serega KTyH
-					</div>
-				</div>
+          <div class="carousel__item">
+            <img src="../dist/img/works/photo-print.jpg" class="carousel-preview img-responsive">
+            <a href="https://elnasim.github.io/works/1/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-			</div>
-		</div>
-		
-	</section>
+          <div class="carousel__item">
+            <img src="../dist/img/works/copyright-kulikov.jpg" class="carousel-preview img-responsive">
+            <a href="https://elnasim.github.io/works/2/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
-	<nav class="left-nav">
-		<ul>
-			<li class="active"><a href="#one" onclick="slowScroll('#s1')"></a></li>
-			<li><a href="#two" onclick="slowScroll('#s2')"></a></li>
-			<li><a href="#three" onclick="slowScroll('#s3')"></a></li>
-		</ul>
-	</nav>
-	
-	<script src="libs/jquery/dist/jquery.min.js"></script>
-	<script src="js/common.js"></script>
+          <div class="carousel__item">
+            <img src="../dist/img/works/bluebox.jpg" class="carousel-preview img-responsive">
+            <a href="https://elnasim.github.io/works/3/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
 
+          <div class="carousel__item">
+            <img src="../dist/img/works/kuhni-minsk.jpg" class="carousel-preview img-responsive">
+            <a href="https://elnasim.github.io/works/6/" class="carousel-btn" target="_blank">Смотреть</a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<footer class="section section-dark">
+  <div class="container">
+
+    <div class="footer">
+      <div class="column-4">
+        <div class="footer__text">Разработка сайтов, вёрстка сайтов по вашим макетам, посадка на CMS</div>
+      </div>
+      <div class="column-4">
+        <div class="footer__text text-center footer-big-text">Давайте сотрудничать</div>
+        <div class="footer__solicals">
+          <a href="https://vk.com/seregaktun" class="solials-link" target="_blank"><i class="fab fa-vk"></i></a>
+          <a href="https://t.me/K_T_y_H" class="solials-link" target="_blank"><i class="fab fa-telegram"></i></a>
+        </div>
+      </div>
+      <div class="column-4">
+        <div class="footer__text text-center footer-big-text">Предложить работу</div>
+        <a href="https://vk.com/seregaktun" class="footer-btn" target="_blank">Написать мне</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- include js libraries -->
+<script src="dist/js/libs.min.js"></script>
+
+<!-- include main common js -->
+<script src="dist/js/common.min.js"></script>
 </body>
 </html>

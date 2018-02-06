@@ -1,0 +1,4 @@
+.idea
+.nginx
+/node_modules/
+/vendor/

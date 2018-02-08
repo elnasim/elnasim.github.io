@@ -1,3 +1,30 @@
+// -----------------------------------------------
+// preloader
+// -----------------------------------------------
+.preloader
+  position: fixed
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  background-color: #000000
+  z-index: 999
+  display: flex
+  justify-content: center
+  align-items: center
+  img
+    max-width: 100px
+    animation-name: spin
+    animation-duration: 4000ms
+    animation-iteration-count: infinite
+    animation-timing-function: linear
+
+@keyframes spin
+  from
+    transform: rotate(0deg)
+  to
+    transform: rotate(360deg)
+
 @import "mixins/FontFace"
 @import "fonts"
 @import "media-queries"
@@ -66,33 +93,6 @@ sup.required
   &.show
     opacity: 1
     visibility: visible
-
-// -----------------------------------------------
-// preloader
-// -----------------------------------------------
-.preloader
-  position: fixed
-  top: 0
-  right: 0
-  left: 0
-  bottom: 0
-  background-color: #000000
-  z-index: 999
-  display: flex
-  justify-content: center
-  align-items: center
-  img
-    max-width: 100px
-    animation-name: spin
-    animation-duration: 4000ms
-    animation-iteration-count: infinite
-    animation-timing-function: linear
-
-@keyframes spin
-  from
-    transform: rotate(0deg)
-  to
-    transform: rotate(360deg)
 
 // -----------------------------------------------
 // COMMON

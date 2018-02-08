@@ -2,3 +2,4 @@
 .nginx
 /node_modules/
 /vendor/
+/libs/

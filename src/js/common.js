@@ -1,6 +1,16 @@
 $(document).ready(function () {
 
   // -----------------------------------------------
+  // PRELOADER
+  // -----------------------------------------------
+
+  function preloaderRemove() {
+    $('.preloader').remove();
+  }
+
+  setTimeout(preloaderRemove, 1000);
+
+  // -----------------------------------------------
   // Slick
   // -----------------------------------------------
 
@@ -24,16 +34,6 @@ $(document).ready(function () {
       }
     ]
   });
-
-  // -----------------------------------------------
-  // PRELOADER
-  // -----------------------------------------------
-
-  function preloaderRemove() {
-    $('.preloader').remove();
-  }
-
-  setTimeout(preloaderRemove, 1000);
 
 
 });

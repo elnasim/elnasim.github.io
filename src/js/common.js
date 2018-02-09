@@ -8,7 +8,7 @@ $(document).ready(function () {
     $('.preloader').remove();
   }
 
-  setTimeout(preloaderRemove, 1000);
+  setTimeout(preloaderRemove, 2000);
 
   // -----------------------------------------------
   // Slick

@@ -10,7 +10,7 @@
 
   <link rel="icon" href="">
 
-  <title>Baspromo-test</title>
+  <title>Ваш ключ</title>
 
   <!-- include css libraries -->
   <link href="dist/css/libs.min.css" rel="stylesheet">
@@ -20,443 +20,282 @@
 </head>
 <body>
 
-<header class="header">
-  <div class="container">
-    <div class="row justify-content-between align-items-center">
-      <div class="col-lg-6 col-md-4 col-sm-7 col-8">
-        <a href="#" class="logo"><img src="dist/img/logo.svg" alt=""></a>
+<!-- HEADER -->
+<header class="header" id="about">
+
+  <div class="topline">
+    <div class="container">
+      <div class="row align-items-center">
+
+        <div class="col-lg-4 col-md-12">
+          <!-- ЛОГОТИП -->
+          <div class="logo">
+            <div class="logo__head">ваш ключ</div>
+            <div class="logo__bottom">основано в 1991</div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <!-- ВЕРХНЕЕ МЕНЮ -->
+          <nav class="menu">
+            <a href="#about" class="menu__link anchor-easy">О компании</a>
+            <a href="#services" class="menu__link anchor-easy">Услуги</a>
+            <a href="#contacts" class="menu__link anchor-easy">Контакты</a>
+          </nav>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+          <!-- КОНТАКТЫ -->
+          <div class="headerContacts">
+            <a href="tel:+375296223627" class="headerContacts__phone">+375 (29) 622-36-27</a>
+            <div class="headerContacts__addr">г.Брест, Проспект Машерова 17</div>
+          </div>
+        </div>
+
       </div>
-      <div class="col-lg-6 col-md-8 hidden-sm">
-        <nav class="menu">
-          <a href="#" class="menu__link active">О нас</a>
-          <a href="#" class="menu__link">Магазин</a>
-          <a href="#" class="menu__link">Блог</a>
-          <a href="#" class="menu__link">Адреса кофеен</a>
-        </nav>
-      </div>
-      <div class="col-sm-5 col-4 hidden-md"><a href="#" class="toggle-mnu"><span></span></a></div>
     </div>
   </div>
-  <div class="mobile-menu hidden-md">
-    <a href="#" class="menu__link menu__link-mobile active">О нас</a>
-    <a href="#" class="menu__link menu__link-mobile">Магазин</a>
-    <a href="#" class="menu__link menu__link-mobile">Блог</a>
-    <a href="#" class="menu__link menu__link-mobile">Адреса кофеен</a>
+
+  <!-- ИНФО НА ПЕРВОМ ЭКРАНЕ -->
+  <div class="headerBody">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <div class="headerBody__head"><span>Уже более 25 лет</span> <br> мы помогаем людям в сложных вопросах востановления ключей и доступа к имуществу</div>
+        </div>
+        <div class="col-md-12">
+          <div class="headerBody__whiteBg">Сегодня мы решаем 99,9% всех вопросов так или иначе связанных с ключами</div>
+        </div>
+        <div class="col-md-12">
+          <div class="headerBody__transparent">Современное оборудование позволяет нам делать цены доступными и соответствовать высоким стандартам качества</div>
+        </div>
+        <div class="col-md-12">
+          <a href="tel:+375296223627" class="headerBody__phone">Звоните: +375 (29) 622-36-27</a>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="headerBody__links d-flex justify-content-around">
+            <a href="#map" class="anchor-easy">Наш адрес в Бресте</a>
+            <a href="#map" class="anchor-easy" id="link-header-kobrin">в Кобрине</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+
+  <div class="videoWrapper">
+    <video preload="preload" id="video" autoplay="autoplay" loop="loop">
+      <source src="dist/video/yourKey.mp4" type="video/mp4">
+    </video>
+  </div>
+
 </header>
 
-<div class="slider-top-wrapper">
-  <div class="slider-top">
-
-    <div class="sliderItem" style="background-image:url(dist/img/slider-img.jpg);">
-      <div class="container">
-        <div class="sliderItem__text">
-          Кофе для тех, <br>
-          кому важно, <br>
-          что в его чашке
-        </div>
-      </div>
-    </div>
-
-    <div class="sliderItem" style="background-image:url(dist/img/slider-img.jpg);">
-      <div class="container">
-        <div class="sliderItem__text">
-          Кофе для тех, <br>
-          кому важно, <br>
-          что в его чашке
-        </div>
-      </div>
-    </div>
-
-    <div class="sliderItem" style="background-image:url(dist/img/slider-img.jpg);">
-      <div class="container">
-        <div class="sliderItem__text">
-          Кофе для тех, <br>
-          кому важно, <br>
-          что в его чашке
-        </div>
-      </div>
-    </div>
-
-    <div class="sliderItem" style="background-image:url(dist/img/slider-img.jpg);">
-      <div class="container">
-        <div class="sliderItem__text">
-          Кофе для тех, <br>
-          кому важно, <br>
-          что в его чашке
-        </div>
-      </div>
-    </div>
-
-    <div class="sliderItem" style="background-image:url(dist/img/slider-img.jpg);">
-      <div class="container">
-        <div class="sliderItem__text">
-          Кофе для тех, <br>
-          кому важно, <br>
-          что в его чашке
-        </div>
-      </div>
-    </div>
-
-  </div>
-
-  <div class="slider-nav slider-top-nav"></div>
-</div>
-
-<section class="section">
+<!-- БЛОК НАШИ УСЛУГИ -->
+<section id="services" class="services">
   <div class="container">
     <div class="row justify-content-center">
+
       <div class="col-md-12">
-        <div class="section__title">Кофе, кофе, кофе!</div>
+        <div class="services__head">Наши услуги:</div>
       </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-lg-6 col-md-10">
-        <div class="section__text text-align-center">Yellow Vibe Coffee — сеть кофеен, работающая с зерном класса speciality. Для нас важна высота произрастания кофейных деревьев, тип почвы и уход за ней, вовремя собранные ягоды и правильное хранение зерен. Мы работаем с лучшими поставщиками и сами обжариваем зерна.</div>
-      </div>
-      <div class="col-md-12 d-flex justify-content-center">
-        <a class="link link-center" href="#">Подробнее</a>
-      </div>
-    </div>
 
+      <div class="col-md-12">
+        <div class="services__body">
+          <div class="row justify-content-center">
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/1.png">
+                </div>
+                <div class="serviceItem__text">Помощь при утере ключа</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/2.png">
+                </div>
+                <div class="serviceItem__text">Выезд мастера к клиенту</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/3.png">
+                </div>
+                <div class="serviceItem__text">Изготовление ключей для квартир</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/4.png">
+                </div>
+                <div class="serviceItem__text">Изготовление ( и программирование) ключей для авто</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/5.png">
+                </div>
+                <div class="serviceItem__text">Решение проблем с иммобилайзерами и автомобильной электроникой</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/6.png">
+                </div>
+                <div class="serviceItem__text">Другие вопросы свзяанные с восстановлением доступа к имуществу</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/7.png">
+                </div>
+                <div class="serviceItem__text">Изготовление ключей когда все ключи утеряны</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/8.png">
+                </div>
+                <div class="serviceItem__text">Ремонт и восстановление новых пультов для авто, гаражей, шлагбаумов
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/9.png">
+                </div>
+                <div class="serviceItem__text">Замена корпусов автоключей с дистанционным управлением (д/у)</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/10.png">
+                </div>
+                <div class="serviceItem__text">Проверка работоспособности и диагностика автоключей</div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="serviceItem">
+                <div class="serviceItem__img">
+                  <img src="dist/img/services/11.png">
+                </div>
+                <div class="serviceItem__text">Изготовление ключей мастер кей (master key)</div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12 col-lg-10">
+        <div class="services__redBg">Цены на услугу по ремонту ключей, замков и пультов д/у оговариваются с мастером в личном присутствии владельца и после осмотра повреждений</div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="redLine"></div>
+      </div>
+
+    </div>
   </div>
 </section>
 
-<section class="news">
+<!-- БЛОК С КАРТАМИ -->
+<section id="map" class="map">
   <div class="container">
-    <div class="d-flex justify-content-between">
-
-      <div class="newsItem">
-        <img src="dist/img/goods.jpg" alt="" class="newsItem__img img-responsive">
-        <div class="newsItem__border">
-          <div class="newsItem__type">Магазин</div>
-          <div class="newsItem__title">Моносорт в зернах <b>Maragogype Nicaragua</b></div>
-        </div>
-      </div>
-
-      <div class="newsItem">
-        <img src="dist/img/goods.jpg" alt="" class="newsItem__img img-responsive">
-        <div class="newsItem__border">
-          <div class="newsItem__type">Магазин</div>
-          <div class="newsItem__title">Моносорт в зернах <b>Maragogype Nicaragua</b></div>
-        </div>
-      </div>
-
-      <div class="newsItem">
-        <img src="dist/img/goods.jpg" alt="" class="newsItem__img img-responsive">
-        <div class="newsItem__border">
-          <div class="newsItem__type">Магазин</div>
-          <div class="newsItem__title">Моносорт в зернах <b>Maragogype Nicaragua</b></div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="section section-instagram">
-  <div class="container">
-
     <div class="row">
       <div class="col-md-12">
-        <div class="section__title"><img src="dist/img/instaHeader.svg" alt=""></div>
+        <div class="mapHead d-flex justify-content-between">
+          <a href="#map-brest" class="mapHead__link" id="map-link-brest">Контактная информация Брест</a>
+          <a href="#map-kobrin" class="mapHead__link" id="map-link-kobrin">Кобрин</a>
+        </div>
       </div>
     </div>
-
-    <div class="row">
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
-      <div class="col-lg-2 col-md-3 col-4 hidden-sm">
-        <img src="dist/img/instagramImg.jpg" alt="" class="instagramImg">
-      </div>
+  </div>
+  <div class="mapContent-wrapper">
+    <div id="map-brest" class="mapContent mapContent-1 active">
+      <div id="map-1" style="height: 500px;"></div>
     </div>
-
+    <div id="map-kobrin" class="mapContent mapContent-2">
+      <div id="map-2" style="height: 500px;"></div>
+    </div>
   </div>
 </section>
 
-<footer class="footer hidden-sm">
+<!-- ФУТЕР -->
+<footer id="contacts" class="footer">
   <div class="container">
     <div class="row">
 
-      <div class="col-md-3 d-flex flex-column">
-        <a href="#" class="footer__link">Адреса кофеен</a>
-        <a href="#" class="footer__link">Контакты</a>
-        <a href="#" class="footer__link">Работа у нас</a>
-      </div>
+      <div class="col-lg-4">
+        <div class="logo">
+          <div class="logo__head">ваш ключ</div>
+          <div class="logo__bottom">основано в 1991</div>
+        </div>
+        <div class="footer__addr">
+          Наш адрес: <br>
+          г.Брест, Проспект Машерова 17 <br>
+          (торговые ряды “Лаванда”) <br>
+          10:00-18:00 пнд-птн <br>
+          9:00-14:00 суббота <br>
+          воскресенье выходной <br>
 
-      <div class="col-md-3 d-flex flex-column">
-        <a href="#" class="footer__link">Магазин</a>
-        <a href="#" class="footer__link">Блог</a>
-        <a href="#" class="footer__link">О нас</a>
-      </div>
+          <p></p>
 
-      <div class="col-md-6 d-flex flex-column align-items-end">
-        <div class="footer__socials">
-          <a href="#" class="social__link">&#235;</a>
-          <a href="#" class="social__link">&#228;</a>
-          <a href="#" class="social__link">&#230;</a>
+          г.Кобрин, Ремонт ключей “На Советской” <br>
+          (около Дома Быта) <br>
+          9:00-17:00 пнд-птн <br>
+          9:00-15:00 суббота <br>
+          воскресенье выходной <br>
         </div>
       </div>
 
-      <div class="col-md-6">
-        <div class="copyright">2016 © Yellow Vibe Coffee</div>
+      <div class="col-lg-4">
+        <div class="menu menu-footer d-flex flex-column align-items-lg-start">
+          <a href="#about" class="menu__link menu__link-footer anchor-easy">О компании</a>
+          <a href="#services" class="menu__link menu__link-footer anchor-easy">Услуги</a>
+          <a href="#contacts" class="menu__link menu__link-footer anchor-easy">Контакты</a>
+        </div>
       </div>
 
-      <div class="col-md-6 d-flex flex-column justify-content-end align-items-end">
-        <div class="footer__phone">+7 495 544 86 77</div>
-        <div class="footer__mail">info@yellowvibecoffee.ru</div>
+      <div class="col-lg-4">
+        <div class="footer__phone">
+          <div class="text">изготовление ключей в Бресте</div>
+          <a href="tel:+375296223627" class="phone">+375 (29) 622-36-27</a>
+          <div class="workTime">10:00-18:00 пнд-птн</div>
+        </div>
+        <div class="footer__phone">
+          <div class="text">изготовление ключей в кобрине</div>
+          <a href="tel:+375296223627" class="phone">+375 (29) 622-36-27</a>
+          <div class="workTime">9:00-17:00 пнд-птн</div>
+        </div>
       </div>
 
     </div>
   </div>
 </footer>
 
-<div class="bgImageSec">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="bgImageSec__text">
-          Кофе — <br>
-          наша страсть
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<section class="section">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-lg-8 col-md-8">
-        <div class="section__text text-align-left">
-          Мы работаем только с зерном класса speciality. Высота произрастания кофейных деревьев, тип почвы и уход за ней, вовремя собранные ягоды и правильное хранение зерен — все детали важны, когда речь идет о настоящем кофе, — таком, вкусом которого можно действительно наслаждаться, а не глотнуть и тут же забыть.
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-10">
-
-        <div class="carousel-wrapper">
-          <div class="carousel">
-            <img src="dist/img/photo.jpg" class="img-responsive" alt="">
-            <img src="dist/img/photo.jpg" class="img-responsive" alt="">
-            <img src="dist/img/photo.jpg" class="img-responsive" alt="">
-            <img src="dist/img/photo.jpg" class="img-responsive" alt="">
-            <img src="dist/img/photo.jpg" class="img-responsive" alt="">
-          </div>
-          <div class="carousel-nav slider-nav"></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="section newsPreview">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6">
-        <img src="dist/img/newsPreview.jpg" class="newsPreview__img img-responsive">
-      </div>
-      <div class="col-lg-6">
-        <div class="newsPreview__border d-flex flex-column justify-content-between">
-          <div class="newsPreview-wrapper">
-            <div class="newsPreview__type">Новость</div>
-            <div class="newsPreview__title">У нас появилась выпечка</div>
-            <div class="newsPreview__text">Мы работаем только с зерном класса speciality. Высота произрастания кофейных деревьев, тип почвы и уход за ней, вовремя собранные ягоды и правильное хранение зерен — все детали важны, когда речь идет о настоящем кофе, — таком, вкусом которого можно действительно наслаждаться, а не глотнуть и тут же забыть.</div>
-          </div>
-          <a href="#" class="link">Подробнее</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="article">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-12">
-        <div class="article__head">Новость</div>
-      </div>
-      <div class="col-md-8">
-        <div class="article__title">Как правильно сварить наше кофе дома</div>
-      </div>
-      <div class="col-md-10">
-        <div class="article__img">
-          <img src="dist/img/coffe.jpg" class="img-responsive">
-        </div>
-      </div>
-      <div class="col-md-8">
-        <p>Мы работаем только с зерном класса speciality. Высота произрастания кофейных деревьев, тип почвы и уход за ней, вовремя собранные ягоды и правильное хранение зерен — все детали важны, когда речь идет о настоящем кофе, — таком, вкусом которого можно действительно наслаждаться, а не глотнуть и тут же забыть.</p>
-        <p>Фермеры, сборщики, экспортеры кофейных зерен для нас не просто посредники — это настоящие профи с огромным опытом в кофейном деле и огнем в глазах. Мы думаем, что этот огонь передается и нашим зернам — пусть пока зеленым и необжареным.</p>
-        <p>Обжарка зерен — отдельная тема для разговора. Мы обжариваем наши зерна сами, используем среднюю (венскую) степень обжарки, потому что она успевает раскрыть аромат зерен и при этом не добавляет горечи.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <div class="map"></div>
-  </div>
-</section>
-
-<section class="contacts section">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-4 col-md-5 col-sm-12">
-        <div class="contacts__title">Курская</div>
-        <p>
-          БК Арма, <br>
-          Нижний Сусальный пер. 5С9
-        </p>
-
-        <p>
-          Пн-Пт 08:00-21:00 <br>
-          Сб-Вс 09:00-21:00
-        </p>
-
-        <p>+7 495 356 55 77</p>
-
-        <a href="#" class="link">Показать на карте</a>
-      </div>
-
-      <div class="col-lg-4 col-md-5 hidden-sm">
-        <div class="contacts__title">Улица 1905 года</div>
-        <p>
-          Улица 1905 года
-        </p>
-
-        <p>
-          Пн-Пт 08:00-21:00 <br>
-          Сб-Вс 09:00-21:00
-        </p>
-
-        <p>+7 495 356 55 77</p>
-
-        <a href="#" class="link">Показать на карте</a>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<section class="emails">
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-4">
-        <div class="emailsItem">
-          <div class="emails__title">Интернет магазин</div>
-          <div class="emails__link">shop@yellowvicoffee.ru</div>
-        </div>
-      </div>
-      <div class="col-md-4 hidden-sm">
-        <div class="emailsItem">
-          <div class="emails__title">Интернет магазин</div>
-          <div class="emails__link">shop@yellowvicoffee.ru</div>
-        </div>
-      </div>
-    </div>
-    <div class="row justify-content-center">
-      <div class="col-md-4 hidden-sm">
-        <div class="emailsItem">
-          <div class="emails__title">Интернет магазин</div>
-          <div class="emails__link">shop@yellowvicoffee.ru</div>
-        </div>
-      </div>
-      <div class="col-md-4 hidden-sm">
-        <div class="emailsItem">
-          <div class="emails__title">Интернет магазин</div>
-          <div class="emails__link">shop@yellowvicoffee.ru</div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section class="sendFormWrapper">
-  <div class="container">
-
-    <form class="sendForm">
-
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          <div class="sendForm__title">Напишите нам скорее</div>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-md-10">
-          <textarea class="textarea" placeholder="Сообщение"></textarea>
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-md-5">
-          <input class="input" type="text" placeholder="Ваше имя">
-        </div>
-        <div class="col-md-5 hidden-sm">
-          <input class="input" type="text" placeholder="Ваше имя">
-        </div>
-      </div>
-
-      <div class="row justify-content-center">
-        <div class="col-md-3 hidden-sm">
-          <div class="captcha"><img src="dist/img/captcha.jpg" alt=""></div>
-        </div>
-        <div class="col-md-4 hidden-sm">
-          <input class="input no-margin" type="text" placeholder="Символы с картинки">
-        </div>
-        <div class="col-md-3">
-          <button class="sendForm__button">Отправить</button>
-        </div>
-      </div>
-
-    </form>
-
-  </div>
-</section>
-
-<div class="copyright-mobile">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="copyright-mobile__text">2016 © Yellow Vibe Coffee</div>
-      </div>
-    </div>
-  </div>
-
+<div class="scroll-top">
+  <img src="dist/img/up-arrow.svg" alt="">
 </div>
 
 
@@ -465,5 +304,29 @@
 
 <!-- include main common js -->
 <script src="dist/js/common.min.js"></script>
+
+<script src="http://api-maps.yandex.ru/2.1/?load=package.full&amp;lang=ru-RU" type="text/javascript"></script>
+<script type="text/javascript">
+  ymaps.ready(init);
+
+  function init() {
+    var myMap = new ymaps.Map("map-1", {
+      center: [52.085205, 23.695454], // координаты центра карты
+      zoom: 18, // степень приближения, больше - ближе
+    });
+    myMap.behaviors.disable('scrollZoom', 'drag');
+    var myPlacemark1 = new ymaps.Placemark([52.085205, 23.695454], {iconCaption: 'Лаванда'}); // координаты указателя, надпись около указателя
+    myMap.geoObjects.add(myPlacemark1);
+
+    var myMap2 = new ymaps.Map("map-2", {
+      center: [51.085205, 23.695454], // координаты центра карты
+      zoom: 18 // степень приближения, больше - ближе
+    });
+    myMap2.behaviors.disable('scrollZoom', 'drag');
+    var myPlacemark2 = new ymaps.Placemark([51.085205, 23.695454], {iconCaption: 'Лаванда'}); // координаты указателя, надпись около указателя
+    myMap2.geoObjects.add(myPlacemark2);
+  }
+</script>
+
 </body>
 </html>

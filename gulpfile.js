@@ -36,27 +36,22 @@ gulp.task('browser-sync-self', function () {
 // Build libs.min.js ( Compiling all .js libraries files )
 gulp.task('js-libs', function () {
   return gulp.src([
-    libsPath + 'jQuery/jquery.js',                            // jQuery
-    libsPath + 'parallax.js/parallax.min.js',                            // parallax.js
-    libsPath + 'slick-1.8.0/slick/slick.min.js',              // Slick Slider
-    libsPath + 'font-awesome/svg-with-js/js/fontawesome-all.min.js',  // font-awesome
+    libsPath + 'jQuery/jQuery.js',                            // jQuery
   ])
-      .pipe(concat('libs.min.js'))
-      .pipe(uglify())
-      .pipe(gulp.dest(distPath + 'js'));
+    .pipe(concat('libs.min.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest(distPath + 'js'));
 });
 
 // Build libs.min.css ( Compiling all .css libraries files )
 gulp.task('css-libs', function () {
   return gulp.src([
-    libsPath + 'normalize-css/normalize.css',                      // Normalize
-    libsPath + 'slick-1.8.0/slick/slick.css',                      // Slick css
-    libsPath + 'slick-1.8.0/slick/slick-theme.css',                // Slick-theme css
+    libsPath + 'bootstrap/css/bootstrap-grid.css',                      // bootstrap
   ])
-      .pipe(concat('libs.min.css'))
-      .pipe(cssnano())
-      .pipe(gulp.dest(distPath + 'css'))
-      .pipe(browserSync.stream());
+    .pipe(concat('libs.min.css'))
+    .pipe(cssnano())
+    .pipe(gulp.dest(distPath + 'css'))
+    .pipe(browserSync.stream());
 });
 
 // Copy required library files
@@ -65,37 +60,37 @@ gulp.task('files-libs', function () {
   var sassFiles = gulp.src([
     libsPath + 'sass-mediaqueries/_media-queries.scss',
   ])
-      .pipe(gulp.dest(gulpSrcPath + '/sass'))
+    .pipe(gulp.dest(gulpSrcPath + '/sass'))
 
 });
 
 // Compiling main.sass files
 gulp.task('main-sass', function () {
   return gulp.src([gulpSrcPath + 'sass/main.sass'])
-      .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
-      .pipe(concat('common.css'))
-      .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
-      .pipe(gulp.dest(gulpSrcPath + 'css'));
+    .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
+    .pipe(concat('common.css'))
+    .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], {cascade: true}))
+    .pipe(gulp.dest(gulpSrcPath + 'css'));
 });
 
 // Compiling common.js
 gulp.task('common-js', function () {
   return gulp.src([gulpSrcPath + 'js/main.js'])
-      .pipe(concat('common.js'))
-      .pipe(gulp.dest(gulpSrcPath + 'js'))
-      .pipe(browserSync.stream());
+    .pipe(concat('common.js'))
+    .pipe(gulp.dest(gulpSrcPath + 'js'))
+    .pipe(browserSync.stream());
 });
 
 // Optimize images
 gulp.task('images', function () {
   return gulp.src(gulpSrcPath + 'img/**/*')
-      .pipe(cache(imagemin({
-        interlaced: true,
-        progressive: true,
-        svgoPlugins: [{removeViewBox: false}],
-        use: [pngquant()]
-      })))
-      .pipe(gulp.dest(distPath + 'img'));
+    .pipe(cache(imagemin({
+      interlaced: true,
+      progressive: true,
+      svgoPlugins: [{removeViewBox: false}],
+      use: [pngquant()]
+    })))
+    .pipe(gulp.dest(distPath + 'img'));
 });
 
 // Clearing the cache
@@ -115,26 +110,26 @@ gulp.task('clear-dist', function () {
 // Common css
 gulp.task('common-css-dist', ['main-sass'], function () {
   gulp.src([gulpSrcPath + 'css/common.css'])
-      .pipe(cssnano({zindex: false}))
-      .pipe(rename('common.min.css'))
-      .pipe(gulp.dest(distPath + 'css'))
-      .pipe(browserSync.stream());
+    .pipe(cssnano({zindex: false}))
+    .pipe(rename('common.min.css'))
+    .pipe(gulp.dest(distPath + 'css'))
+    .pipe(browserSync.stream());
 });
 
 // Common js
 gulp.task('common-js-dist', ['common-js'], function () {
   gulp.src([gulpSrcPath + 'js/common.js'])
-      .pipe(uglify())
-      .pipe(rename('common.min.js'))
-      .pipe(gulp.dest(distPath + 'js'))
-      .pipe(browserSync.stream());
+    .pipe(uglify())
+    .pipe(rename('common.min.js'))
+    .pipe(gulp.dest(distPath + 'js'))
+    .pipe(browserSync.stream());
 });
 
 // Compiling distribution files
 gulp.task('dist', ['images', 'common-css-dist', 'common-js-dist'], function () {
   // Copy fonts
   gulp.src([gulpSrcPath + 'fonts/**'])
-      .pipe(gulp.dest(distPath + 'fonts'));
+    .pipe(gulp.dest(distPath + 'fonts'));
 });
 
 // ======================================================

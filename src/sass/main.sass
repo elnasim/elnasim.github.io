@@ -29,15 +29,6 @@
 @import "fonts"
 @import "media-queries"
 
-$color-red: rgba(#FF0000, 1)
-$color-light-red: rgba(#ffd7d7, 1)
-
-$color-blue: rgba(#0000FF, 1)
-$color-light-blue: rgba(#c5c7ff, 1)
-
-$color-green: rgba(#008000, 1)
-$color-light-green: rgba(#5e8060, 1)
-
 *
   font-family: 'Open Sans'
   font-size: 16px
@@ -47,36 +38,9 @@ $color-light-green: rgba(#5e8060, 1)
 body
   position: relative
   color: #141414
-
-h1, h2, h3, h4, h5, h6
-  font-weight: 600
-
-h1
-  font-size: 60px
-  @include max-screen(479px)
-    font-size: 36px
-
-span
-  &.h1, &.h2, &.h3, &.h4, &.h5, &.h6
-    font-weight: 600
-  &.h1
-    font-size: 36px
-  &.h2
-    font-size: 30px
-  &.h3
-    font-size: 24px
-  &.h4
-    font-size: 18px
-  &.h5
-    font-size: 14px
-  &.h6
-    font-size: 12px
-
-label
-  font-weight: 600
-
-sup.required
-  color: $color-red
+  background-color: #44424d
+  margin: 0
+  padding-top: 30px
 
 .scroll-top
   background-color: rgba(#000, .2)
@@ -94,228 +58,39 @@ sup.required
     opacity: 1
     visibility: visible
 
-// -----------------------------------------------
-// COMMON
-// -----------------------------------------------
-.img-responsive
-  max-width: 100%
-  display: block
-
-.section-title
-  font-size: 40px
-  text-align: center
-  font-weight: 600
-  margin-bottom: 50px
-
-.section
-  padding: 60px 0
-
-.section-dark
-  background-color: #646464
-
-.text-center
-  text-align: center
-
-// -----------------------------------------------
-// GRID
-// -----------------------------------------------
-.container
-  max-width: 1170px
-  padding: 0 15px
-  margin: 0 auto
-
-.row
-  margin: 0 -15px
-  display: flex
-  flex-wrap: wrap
-
-.column-1
-  max-width: 100%
-  flex: 0 0 100%
-  padding: 0 15px
-
-.column-4
-  width: calc(100% / 3)
-  padding: 0 15px
-  flex-grow: 1
-  flex-basis: 0
-
-.column-6
-  width: 50%
-  padding: 0 15px
-  flex-grow: 1
-  flex-basis: 0
-
-// -----------------------------------------------
-// HEADER
-// -----------------------------------------------
-.header
-  height: 100vh
-  box-shadow: 0 0 0 100vh inset rgba(#000, .6)
+.work-item
+  height: 300px
   background-size: cover
-  display: flex
-  color: #ffffff
-  align-items: center
-  text-align: center
-
-// -----------------------------------------------
-// ABOUT
-// -----------------------------------------------
-.about
-  display: flex
-  flex-wrap: wrap
-  align-items: center
-  width: 100%
-  @include max-screen(991px)
-    flex-direction: column
-    .column-6
-      width: auto
-
-.about__info
-  b
-    font-size: 20px
-  p
-    font-size: 18px
-
-// -----------------------------------------------
-// SOCIALS
-// -----------------------------------------------
-.socials
-  display: flex
-  justify-content: center
-
-.socials__btn
-  display: inline-block
-  text-decoration: none
-  border: 2px solid #646464
-  color: #646464
-  padding: 14px 30px
-  border-radius: 100px
-  font-size: 18px
-  margin: 0 15px
-  transition: all .25s ease
-  font-weight: 400
+  background-repeat: no-repeat
+  background-position: center
+  display: block
+  position: relative
+  border: 5px solid #fff
+  margin-bottom: 30px
   &:hover
-    background-color: #646464
-    color: #ffffff
+    .overlay
+      opacity: 1
 
-// -----------------------------------------------
-// PORTFOLIO
-// -----------------------------------------------
-.portfolio
-  width: 100%
+.overlay
   display: flex
   flex-direction: column
-
-.carousel
-  margin: 0
-  padding: 50px
-  box-shadow: 0 0 30px rgba(0, 0, 0, .15)
-  .carousel__item
-    display: flex
-
-.slick-next, .slick-prev
-  background-color: #646464
-  width: 40px
-  height: 40px
-  border-radius: 100%
-  &:hover
-    background-color: #646464
-  &:focus
-    background-color: #646464
-  @include max-screen(479px)
-    height: 25px
-    width: 25px
-
-.slick-prev
-  left: 10px
-
-.slick-next
-  right: 10px
-
-.carousel__item
-  flex-direction: column
+  opacity: 0
   justify-content: center
   align-items: center
-  margin: 0 30px
-
-.carousel-preview
-  box-shadow: 0 0 30px rgba(0, 0, 0, .15)
-
-.carousel-btn
-  text-decoration: none
-  display: inline-block
-  margin-top: 30px
-  border: 1px solid #646464
-  border-radius: 100px
-  padding: 10px 20px
-  transition: all .25s ease
-  color: #000000
-  &:hover
-    background-color: #646464
-    color: #ffffff
-
-// -----------------------------------------------
-// FOOTER
-// -----------------------------------------------
-.footer
   color: #ffffff
-  text-align: center
-  display: flex
-  @include max-screen(767px)
-    flex-direction: column
-    align-items: center
-  .column-4
-    @include max-screen(767px)
-      margin-bottom: 50px
-      width: 100%
-      &:first-child
-        display: none
-      &:last-child
-        margin-bottom: 0
+  text-transform: uppercase
+  font-size: 16px
+  position: absolute
+  top: 0
+  right: 0
+  bottom: 0
+  left: 0
+  background-color: rgba(#000, .75)
+  transition: .25s
 
-.footer__solicals
-  text-align: center
-  display: flex
-  justify-content: center
-
-.solials-link
-  border: 2px solid #fff
-  margin: 0 10px
-  border-radius: 100%
-  width: 50px
-  height: 50px
-  display: flex
-  justify-content: center
-  align-items: center
-  transition: all .25s ease
-  &:hover
-    background-color: #ffffff
-    .fa-vk, .fa-telegram
-      color: #000000
-  .fa-vk, .fa-telegram
-    color: #fff
-    font-size: 24px
-    transition: all .25s ease
-
-.footer__text
-  font-size: 18px
-
-.footer-big-text
+.link
+  display: block
   font-size: 24px
-  font-weight: 600
-  margin-bottom: 15px
+  margin-bottom: 20px
 
-.footer-btn
-  text-decoration: none
-  color: #ffffff
-  border: 2px solid #fff
-  border-radius: 100px
-  padding: 10px 20px
-  display: inline-block
-  transition: all .25s ease
-  &:hover
-    background-color: #ffffff
-    color: #646464
 
-@import "forms"

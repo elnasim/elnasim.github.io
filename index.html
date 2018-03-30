@@ -12,15 +12,49 @@
 
   <title>Вёрстка / разрабока сайтов</title>
 
+  <style>
+    .preloader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: #000000;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .preloader img {
+      max-width: 100px;
+      animation-name: spin;
+      animation-duration: 4000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+  </style>
+
   <!-- include css libraries -->
   <link href="dist/css/libs.min.css" rel="stylesheet">
 
   <!-- include common css -->
   <link href="dist/css/common.min.css" rel="stylesheet">
+
 </head>
 <body>
 
-<!--<div class="preloader"><img src="../dist/img/preloader.svg" alt=""></div>-->
+<div class="preloader"><img src="../dist/img/preloader.svg" alt=""></div>
 
 <div class="container">
   <div class="row">

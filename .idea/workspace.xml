@@ -2,236 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9777eff6-eb5a-4e18-8806-9471710226e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/works/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/common.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/css/common.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/css/libs.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/css/libs.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Bold/OpenSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Bold/OpenSans-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Bold/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Bold/OpenSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Bold/OpenSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Italic/OpenSans-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Italic/OpenSans-Italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Italic/OpenSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Italic/OpenSans-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Italic/OpenSans-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Light/OpenSans-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Light/OpenSans-Light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Light/OpenSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Light/OpenSans-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Light/OpenSans-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/LightItalic/OpenSans-LightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/LightItalic/OpenSans-LightItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/LightItalic/OpenSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/LightItalic/OpenSans-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/LightItalic/OpenSans-LightItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Regular/OpenSans-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Regular/OpenSans-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Regular/OpenSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Regular/OpenSans-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Regular/OpenSans-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Semibold/OpenSans-Semibold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Semibold/OpenSans-Semibold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Semibold/OpenSans-Semibold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Semibold/OpenSans-Semibold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/Semibold/OpenSans-Semibold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/preloader.svg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/preloader.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/telegram.svg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/telegram.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/vk.svg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/vk.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/andybrown.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/andybrown.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/arena.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/arena.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/artifact.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/artifact.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/clipso.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/clipso.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/copyright-kulikov.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/copyright-kulikov.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/cryptoliho.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/cryptoliho.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/drkb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/drkb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/dvernoylider.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/dvernoylider.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/kuhni-minsk.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/kuhni-minsk.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/mebelprint.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/mebelprint.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/mx2fly.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/mx2fly.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/nahodka.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/nahodka.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/popart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/popart.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/shina-luki.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/shina-luki.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/img/works/tehno-kholod.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/img/works/tehno-kholod.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/common.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/js/common.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/js/libs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/works/dist/js/libs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/works/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/works/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/works/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/common.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Bold/OpenSans-Bold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Bold/OpenSans-Bold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Bold/OpenSans-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Bold/OpenSans-Bold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Bold/OpenSans-Bold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/BoldItalic/OpenSans-BoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBold/OpenSans-ExtraBold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/ExtraBoldItalic/OpenSans-ExtraBoldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Italic/OpenSans-Italic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Italic/OpenSans-Italic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Italic/OpenSans-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Italic/OpenSans-Italic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Italic/OpenSans-Italic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Light/OpenSans-Light.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Light/OpenSans-Light.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Light/OpenSans-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Light/OpenSans-Light.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Light/OpenSans-Light.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/LightItalic/OpenSans-LightItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/LightItalic/OpenSans-LightItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/LightItalic/OpenSans-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/LightItalic/OpenSans-LightItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/LightItalic/OpenSans-LightItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Regular/OpenSans-Regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Regular/OpenSans-Regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Regular/OpenSans-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Regular/OpenSans-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Regular/OpenSans-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Semibold/OpenSans-Semibold.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Semibold/OpenSans-Semibold.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Semibold/OpenSans-Semibold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Semibold/OpenSans-Semibold.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/Semibold/OpenSans-Semibold.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/open-sans/SemiboldItalic/OpenSans-SemiboldItalic.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/preloader.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/telegram.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/vk.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/andybrown.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/artifact.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/bluebox.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/clipso.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/copyright-kulikov.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/cryptoliho.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/drkb.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/kuhni-minsk.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/mebelprint.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/mx2fly.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/nahodka.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/photo-print.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/popart.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/works/shina-luki.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/common.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_fonts.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_forms.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/_media-queries.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/main.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sass/mixins/FontFace.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/10/dist/css/common.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/works/10/dist/css/common.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/static/css/main.f44339df.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/static/css/main.f44339df.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/static/js/main.125c828b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/static/js/main.125c828b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/ReactWordpress/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/css/app.6f80db2b.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/js/app.4d87e078.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/js/app.4d87e078.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/js/chunk-vendors.0d7d5023.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todo-vue/js/chunk-vendors.0d7d5023.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/css/main.83425da0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/css/main.83425da0.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/js/main.4dfd651c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/js/main.4dfd651c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/js/main.7f092651.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/js/main.7f092651.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/todoList/static/media/logo.5d5d9eef.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/css/main.02a786f8.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/css/main.02a786f8.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.1624954d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.1624954d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.17c6d739.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.17c6d739.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.2454de8a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.2454de8a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.7602a406.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/twitchApi/static/js/main.7602a406.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/._index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/css/app.3bfd9263.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/js/app.143c3052.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/js/app.143c3052.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/js/chunk-vendors.bc6ba741.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/vue-github-search/js/chunk-vendors.bc6ba741.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/asset-manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/css/main.214519a9.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/css/main.214519a9.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/css/main.fb05ad1e.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/css/main.fb05ad1e.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/js/main.957bce2a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/js/main.957bce2a.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/js/main.c05f73a9.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/js/main.c05f73a9.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/media/sword.ca06b79d.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/media/swords.0ee0bc17.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/works/wotCalc/static/media/tree.e1f2f411.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/style.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -241,7 +14,32 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vue/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="31" column="111" lean-forward="true" selection-start-line="31" selection-start-column="111" selection-end-line="31" selection-end-column="111" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vue/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -249,12 +47,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vue/style.css" />
-        <option value="$PROJECT_DIR$/vue/index.html" />
         <option value="$PROJECT_DIR$/works/index.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/works/dist/css/common.min.css" />
+        <option value="$PROJECT_DIR$/vue/findPair/index.html" />
+        <option value="$PROJECT_DIR$/vue/style.css" />
+        <option value="$PROJECT_DIR$/vue/index.html" />
       </list>
     </option>
   </component>
@@ -271,7 +70,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -282,18 +80,13 @@
             <path>
               <item name="elnasim.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="elnasim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="elnasim.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="elnasim.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="works" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -344,16 +137,18 @@
       <workItem from="1540302573678" duration="611000" />
       <workItem from="1552749852202" duration="13000" />
       <workItem from="1552905489022" duration="1155000" />
+      <workItem from="1558782881240" duration="394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1779000" />
+    <option name="totallyTimeSpent" value="2173000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1920" height="991" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.20766774" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945712" visible="true" weight="0.20758693" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" sideWeight="0.5005429" side_tool="true" weight="0.20553781" />
@@ -380,31 +175,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="58" column="18" selection-start-line="58" selection-start-column="18" selection-end-line="58" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vue/twitch-vue/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/vue/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="31" column="4" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/works/src/css/common.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/works/src/css/common.css" />
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -444,6 +218,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/findPair/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="68" column="1" selection-start-line="68" selection-start-column="1" selection-end-line="68" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vue/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="31" column="111" lean-forward="true" selection-start-line="31" selection-start-column="111" selection-end-line="31" selection-end-column="111" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#4;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

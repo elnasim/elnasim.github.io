@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9777eff6-eb5a-4e18-8806-9471710226e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/vue/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="9777eff6-eb5a-4e18-8806-9471710226e0" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,12 +133,12 @@
       <workItem from="1540302573678" duration="611000" />
       <workItem from="1552749852202" duration="13000" />
       <workItem from="1552905489022" duration="1155000" />
-      <workItem from="1558782881240" duration="394000" />
+      <workItem from="1558782881240" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2173000" />
+    <option name="totallyTimeSpent" value="2300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1050" extended-state="6" />

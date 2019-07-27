@@ -1,204 +1,168 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link rel="icon" href="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <title>Вёрстка / разрабока сайтов</title>
+  <link rel="icon" href="" />
 
-    <style>
-      .preloader {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-        background-color: #000000;
-        z-index: 999;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+  <title>Вёрстка / разрабока сайтов</title>
+
+  <style>
+    .preloader {
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: #000000;
+      z-index: 999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .preloader img {
+      max-width: 100px;
+      animation-name: spin;
+      animation-duration: 4000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
       }
 
-      .preloader img {
-        max-width: 100px;
-        animation-name: spin;
-        animation-duration: 4000ms;
-        animation-iteration-count: infinite;
-        animation-timing-function: linear;
+      to {
+        transform: rotate(360deg);
       }
+    }
+  </style>
 
-      @keyframes spin {
-        from {
-          transform: rotate(0deg);
-        }
-        to {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
+  <!-- include css libraries -->
+  <link href="dist/css/libs.min.css" rel="stylesheet" />
 
-    <!-- include css libraries -->
-    <link href="dist/css/libs.min.css" rel="stylesheet" />
+  <!-- include common css -->
+  <link href="dist/css/common.min.css" rel="stylesheet" />
+</head>
 
-    <!-- include common css -->
-    <link href="dist/css/common.min.css" rel="stylesheet" />
-  </head>
-  <body>
-    <div class="preloader"><img src="dist/img/preloader.svg" alt="" /></div>
+<body>
+  <div class="preloader"><img src="dist/img/preloader.svg" alt="" /></div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="http://tehno-kholod.ru/"
-            class="work-item"
-            style="background-image: url(dist/img/works/tehno-kholod.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">tehno-kholod.ru</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
+  <div class="container">
+    <div class="row">
 
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="https://dvernoylider.by"
-            class="work-item"
-            style="background-image: url(dist/img/works/dvernoylider.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">dvernoylider.by</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="http://mx2fly.com"
-            class="work-item"
-            style="background-image: url(dist/img/works/mx2fly.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">mx2fly.com</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="https://nahodka-an.ru"
-            class="work-item"
-            style="background-image: url(dist/img/works/nahodka.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">nahodka-an.ru</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="http://dkb.yar.ru"
-            class="work-item"
-            style="background-image: url(dist/img/works/drkb.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">dkb.yar.ru</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="http://clipso-union.by"
-            class="work-item"
-            style="background-image: url(dist/img/works/clipso.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">clipso-union.by</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="http://mebelprint.by"
-            class="work-item"
-            style="background-image: url(dist/img/works/mebelprint.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">mebelprint.by</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="https://shina-luki.ru"
-            class="work-item"
-            style="background-image: url(dist/img/works/shina-luki.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">shina-luki.ru</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <a
-            href="https://elnasim.github.io/works/2"
-            class="work-item"
-            style="background-image: url(dist/img/works/copyright-kulikov.jpg);"
-            target="_blank"
-          >
-            <span class="overlay">
-              <span class="link">Copywriter</span>
-              Смотреть
-            </span>
-          </a>
-        </div>
+      <div class="col-lg-4 col-md-6">
+        <a href="https://dvernoylider.by" class="work-item"
+          style="background-image: url(dist/img/works/dvernoylider.jpg);" target="_blank">
+          <span class="overlay">
+            <span class="link">dvernoylider.by</span>
+            Смотреть
+          </span>
+        </a>
       </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://mx2fly.com" class="work-item" style="background-image: url(dist/img/works/mx2fly.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">mx2fly.com</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="https://nahodka-an.ru" class="work-item" style="background-image: url(dist/img/works/nahodka.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">nahodka-an.ru</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://tehno-kholod.ru/" class="work-item"
+          style="background-image: url(dist/img/works/tehno-kholod.jpg);" target="_blank">
+          <span class="overlay">
+            <span class="link">tehno-kholod.ru</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://dkb.yar.ru" class="work-item" style="background-image: url(dist/img/works/drkb.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">dkb.yar.ru</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://clipso-union.by" class="work-item" style="background-image: url(dist/img/works/clipso.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">clipso-union.by</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://mebelprint.by" class="work-item" style="background-image: url(dist/img/works/mebelprint.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">mebelprint.by</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="https://shina-luki.ru" class="work-item" style="background-image: url(dist/img/works/shina-luki.jpg);"
+          target="_blank">
+          <span class="overlay">
+            <span class="link">shina-luki.ru</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <a href="http://sevastopol-rc.ru" class="work-item"
+          style="background-image: url(dist/img/works/sevastopol-rc.jpg);" target="_blank">
+          <span class="overlay">
+            <span class="link">sevastopol-rc</span>
+            Смотреть
+          </span>
+        </a>
+      </div>
+
     </div>
+  </div>
 
-    <div class="socials">
-      <a
-        href="https://vk.com/seregaktun"
-        class="social-link vk-link"
-        target="_blank"
-        ><img src="dist/img/vk.svg" alt=""
-      /></a>
-      <a href="https://t.me/K_T_y_H" class="social-link" target="_blank"
-        ><img src="dist/img/telegram.svg" alt=""
-      /></a>
-    </div>
+  <div class="socials">
+    <a href="https://vk.com/seregaktun" class="social-link vk-link" target="_blank"><img src="dist/img/vk.svg"
+        alt="" /></a>
+    <a href="https://t.me/K_T_y_H" class="social-link" target="_blank"><img src="dist/img/telegram.svg" alt="" /></a>
+  </div>
 
-    <!-- include js libraries -->
-    <script src="dist/js/libs.min.js"></script>
+  <!-- include js libraries -->
+  <script src="dist/js/libs.min.js"></script>
 
-    <!-- include main common js -->
-    <script src="dist/js/common.min.js"></script>
-  </body>
+  <!-- include main common js -->
+  <script src="dist/js/common.min.js"></script>
+</body>
+
 </html>

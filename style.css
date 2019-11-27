@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   line-height: 1.75;
   overflow-x: hidden;
@@ -25,26 +25,27 @@ body {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .link {
   display: flex;
   width: 50%;
   text-align: center;
-  color: rgba(255, 255, 255, .8);
+  color: rgba(255, 255, 255, 0.8);
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 30px;
-  border: 1px solid rgba(255, 255, 255, .8);
+  border: 1px solid rgba(255, 255, 255, 0.8);
   height: 300px;
   align-items: center;
   justify-content: center;
-  transition: .25s;
+  transition: 0.25s;
 }
 
 .link:hover {
-  background-color: rgba(255, 255, 255, .8);
+  background-color: rgba(255, 255, 255, 0.8);
   color: #201c23;
 }
 
